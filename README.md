@@ -1,1 +1,1 @@
-# Minecraft-Bedrock-Plug-in-Mod
+# Minecraft Bedrock Plug-in/Mod
