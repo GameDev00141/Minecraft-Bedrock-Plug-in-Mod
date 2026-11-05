@@ -1,0 +1,25 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Hardcore Revive System",
+    "description": "Custom hardcore revive mechanics designed for our server!",
+    "uuid": "4f227b2a-89bc-4f70-a359-39f82855f891",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 21, 0]
+  },
+  "modules": [
+    {
+      "type": "script",
+      "language": "javascript",
+      "uuid": "9c235bc0-8f92-491a-b620-72124599a12a",
+      "version": [1, 0, 0],
+      "entry": "scripts/main.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "2.5.0"
+    }
+  ]
+}

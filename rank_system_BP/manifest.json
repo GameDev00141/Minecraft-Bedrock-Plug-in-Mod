@@ -1,0 +1,25 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Rank System Add-On",
+    "description": "Custom name tags, rank display, and automatic permission system.",
+    "uuid": "9a338d4b-22de-4f92-c571-51h04077h004",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 20, 0]
+  },
+  "modules": [
+    {
+      "description": "Script module",
+      "type": "script",
+      "uuid": "0b449e5c-33ef-4fa2-d682-62i15188i005",
+      "version": [1, 0, 0],
+      "entry": "scripts/main.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "1.13.0"
+    }
+  ]
+}
